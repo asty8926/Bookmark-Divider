@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="dividers/circle/color=gray,rotation=circle.png">
+
+    <!-- Meta tags for Discord embeds https://neilpatel.com/blog/open-graph-meta-tags/ -->
+    <!-- OpenGraphs Meta Tags -->
+    <meta property="og:title" content="Bookmark Divider Project">
+    <meta property="og:url" content="https://asty8926.github.io/Bookmark-Divider/">
+
+    <meta property="og:description" content="Separate your bookmarks with up to 30 different clean dividers, from horizontal, to circle and circle bars, and among 3 different colors!
+    Bookmark Divider is what you didn't know you needed but now couldn't live without.">
+
+    <meta property="og:image" content="https://raw.githubusercontent.com/asty8926/Bookmark-Divider/main/assets/bookmark-divider-logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:title" content="Bookmark Divider Project">
+    <meta name="twitter:url" content="https://asty8926.github.io/Bookmark-Divider/">
+    <meta name="twitter:description" content="Separate your bookmarks with up to 30 different clean dividers, from horizontal, to circle and circle bars, and among 3 different colors!
+    Bookmark Divider is what you didn't know you needed but now couldn't live without.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/asty8926/Bookmark-Divider/main/assets/bookmark-divider-logo.png">
+
+    <title>Bookmark Divider | Circle</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div id="app-individual" class="fl-center">
+      <a href="." class="header-container fl-center">
+        <img class="logo" src="assets/logo-svg.svg" alt="Logo">
+        <h1 class="site-title title">Bookmark | Divider</h1>
+      </a>
+
+      <!--<kbd class="shortcut">Ctrl/Cmd + D</kbd>-->
+
+      <div class="fl-center">
+        <a href="" class="add-link">
+			<img src="dividers/circle/color=gray,rotation=round.png">
+		</a>
+      </div>
+
+      <div class="main-container fl-center fl-vt">
+        <h2 class="main-header title">Pick another</h2>
+        <!-- 3 Dividers container -->
+        <div class="dividers-container fl-center fl-hz">
+          <!-- Divider Container + Caption -->
+          <a href="vertical.html" class="inner-divider-container fl-center fl-vt">
+            <!-- Fixed-size square displaying the divider -->
+            <div class="divider-container fl-center">
+              <!-- Fixed-size divider wrapper inside of the container -->
+              <div class="divider-wrapper fl-center">
+                <!-- Actual divider as HTML element -->
+                <div class="divider vertical-divider"></div>
+              </div>
+            </div>
+            <p class="divider-name">Vertical</p>
+          </a>
+
+          <!-- Divider Container + Caption -->
+          <a href="horizontal.html" class="inner-divider-container fl-center fl-vt">
+            <!-- Fixed-size square displaying the divider -->
+            <div class="divider-container fl-center">
+              <!-- Fixed-size divider wrapper inside of the container -->
+              <div class="divider-wrapper fl-center">
+                <!-- Actual divider as HTML element -->
+                <div class="divider horizontal-divider"></div>
+              </div>
+            </div>
+            <p class="divider-name">Horizontal</p>
+          </a>
+
+          <!-- Divider Container + Caption -->
+          <a href="circle.html" class="inner-divider-container fl-center fl-vt">
+
+            <!-- Fixed-size square displaying the divider -->
+            <div class="divider-container fl-center active">
+              <!-- Fixed-size divider wrapper inside of the container -->
+              <div class="divider-wrapper fl-center">
+                <!-- Actual divider as HTML element -->
+                <div class="divider circle-divider"></div>
+              </div>
+            </div>
+            <p class="divider-name">Circle</p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
