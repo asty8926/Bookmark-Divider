@@ -16,12 +16,32 @@ This is precisely what this project is about.
 
 👉 **[Link to the website](https://asty8926.github.io/Bookmark-Divider/)**
 
-## Preview
+## How does it work and how do I use it?
 
+The project makes use of what's called a "favicon", which is the logo of a website that is displayed both when you have it open in a tab, or when you bookmark it.
+A favicon can be different for every page even on the same website, and this is precisely what I am doing.
+
+**Guide**
+`1.` Go to the [website](https://asty8926.github.io/Bookmark-Divider/)
+`2.` Pick the divider of your choice
+`3.` Bookmark the page (*easy with `Cmd/Ctrl + D`*) to your bookmarks bar, and remove the bookmark name
+`4.` Navigate through the 9 other pages for that divider and bookmark as many as you need!
+
+## Preview
 
 **My current bookmarks bar using the dividers:**
 ![My current bookmarks bar using the dividers](https://cdn.discordapp.com/attachments/337040974415003649/918221652435812432/Bookmark-Dividers-In-Action.png)
 
 **Website Preview:**
 ![Website Preview](https://cdn.discordapp.com/attachments/337040974415003649/918222038664110090/Bookmark-Divider-Project-Preview.png)
+
+### Bonus - Behind The Scenes | Planning out the project
+
+Before starting to even type a single character of code, I brainstormed the desired User Flow in the form of a Chart/Mind Map on [Figjam](https://www.figma.com/figjam/), and then made a visual prototype/UI using [Figma](https://www.figma.com/).
+
+**User Flow Chart:**
+![User Flow Chart by Asty'](https://cdn.discordapp.com/attachments/337040974415003649/918226792450490408/Bookmark_Divider_User_Flow_Chart.png)
+
+Here are the **Chart Legends**, to know how to read the above and what each shape and color corresponds to:
+![Chart Legends](https://cdn.discordapp.com/attachments/337040974415003649/918227073816989727/Bookmark_Divider_User_Flow_Chart_Legends.png)
 
