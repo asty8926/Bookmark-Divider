@@ -10,7 +10,7 @@ If you want to share the website around you, I tried my best to include the rele
 
 ## Features
 
-- 3 different dividers shapes to choose from (horizontal bar, vertical bar, and circle)
+- 3 different dividers shapes to choose from (horizontal bar, vertical bar, and circle) — Currently only the vertical divider is functional, as I wanted a first working version
 - 3 different colors per divider (gray, white, and light blue)
 - 10 different pages to bookmark per divider, for a total of 30 pages per divider per color, which means `30 * 3 = 90` total dividers to use as bookmarks!
 - Clean and modern UI, without clutter
