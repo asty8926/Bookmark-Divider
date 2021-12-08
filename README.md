@@ -22,6 +22,7 @@ The project makes use of what's called a "favicon", which is the logo of a websi
 A favicon can be different for every page even on the same website, and this is precisely what I am doing.
 
 **Guide**
+
 `1.` Go to the [website](https://asty8926.github.io/Bookmark-Divider/)
 
 `2.` Pick the divider of your choice
