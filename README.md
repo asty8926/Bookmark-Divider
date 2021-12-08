@@ -37,7 +37,7 @@ A favicon can be different for every page even on the same website, and this is 
 
 ### Bonus - Behind The Scenes | Planning out the project
 
-Before starting to even type a single character of code, I brainstormed the desired User Flow in the form of a Chart/Mind Map on [Figjam](https://www.figma.com/figjam/), and then made a visual prototype/UI using [Figma](https://www.figma.com/).
+Before starting to even type a single character of code, I brainstormed the desired User Flow in the form of a Chart/Mind Map on [FigJam](https://www.figma.com/figjam/), and then made a visual prototype/UI using [Figma](https://www.figma.com/).
 
 **User Flow Chart:**
 ![User Flow Chart by Asty'](https://cdn.discordapp.com/attachments/337040974415003649/918226792450490408/Bookmark_Divider_User_Flow_Chart.png)
