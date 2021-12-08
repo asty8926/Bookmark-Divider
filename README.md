@@ -13,3 +13,5 @@ This is precisely what this project is about.
 - 10 different pages to bookmark per divider, for a total of 30 pages per divider per color, which means `30 * 3 = 90` total dividers to use as bookmarks!
 - Clean and modern UI, without clutter
 - Completely Free to use
+
+**[Link to the website](https://asty8926.github.io/Bookmark-Divider/)**
