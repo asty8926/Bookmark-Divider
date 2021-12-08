@@ -14,7 +14,7 @@ This is precisely what this project is about.
 - Clean and modern UI, without clutter
 - Completely Free to use
 
-**[Link to the website](https://asty8926.github.io/Bookmark-Divider/)**
+👉 **[Link to the website](https://asty8926.github.io/Bookmark-Divider/)**
 
 ## Preview
 
