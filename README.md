@@ -15,3 +15,10 @@ This is precisely what this project is about.
 - Completely Free to use
 
 **[Link to the website](https://asty8926.github.io/Bookmark-Divider/)**
+
+## Preview
+
+![Website Preview](https://cdn.discordapp.com/attachments/337040974415003649/918222038664110090/Bookmark-Divider-Project-Preview.png)
+
+My current bookmarks bar using the dividers:
+![My current bookmarks bar using the dividers](https://cdn.discordapp.com/attachments/337040974415003649/918221652435812432/Bookmark-Dividers-In-Action.png)
