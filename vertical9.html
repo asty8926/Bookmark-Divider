@@ -2,8 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/bookmark-divider-logo.png">
+    <link rel="shortcut icon" href="dividers/vertical/color=gray,rotation=vertical.png">
 
     <!-- Meta tags for Discord embeds https://neilpatel.com/blog/open-graph-meta-tags/ -->
     <!-- OpenGraphs Meta Tags -->
@@ -23,21 +22,35 @@
     Bookmark Divider is what you didn't know you needed but now couldn't live without.">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/asty8926/Bookmark-Divider/main/assets/bookmark-divider-logo.png">
 
-    <!-- Title of the page -->
-    <title>Bookmark Divider</title>
+    <title>Bookmark Divider | #1 Vertical</title>
 
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="app" class="fl-center">
 
+    <div id="app-individual" class="fl-center">
       <a href="/" class="header-container fl-center">
         <img class="logo" src="assets/logo-svg.svg" alt="Logo">
         <h1 class="site-title title">Bookmark | Divider</h1>
       </a>
 
-      <main class="main-container fl-center fl-vt">
-        <h2 class="main-header title">Pick a divider</h2>
+      <!--<kbd class="shortcut">Ctrl/Cmd + D</kbd>-->
+
+      <div class="dividers-grid">
+        <a href="vertical1.html" class="divider-number-container">1</a>
+        <a href="vertical2.html" class="divider-number-container">2</a>
+        <a href="vertical3.html" class="divider-number-container">3</a>
+        <a href="vertical4.html" class="divider-number-container">4</a>
+        <a href="vertical5.html" class="divider-number-container">5</a>
+        <a href="vertical6.html" class="divider-number-container">6</a>
+        <a href="vertical7.html" class="divider-number-container">7</a>
+        <a href="vertical8.html" class="divider-number-container">8</a>
+        <a href="#" class="divider-number-container current">9</a>
+        <a href="vertical10.html" class="divider-number-container">10</a>
+      </div>
+
+      <div class="main-container fl-center fl-vt">
+        <h2 class="main-header title">Pick another</h2>
         <!-- 3 Dividers container -->
         <div class="dividers-container fl-center fl-hz">
           <!-- Divider Container + Caption -->
@@ -81,14 +94,7 @@
           </div>
 
         </div>
-      </main>
-
-      <div class="info-button fl-center clickable">
-        What's this?
       </div>
-
     </div>
-
-    <!--<p>Just some random page to have a vertical bar divider as a bookmark on my browser.</p>-->
   </body>
 </html>
