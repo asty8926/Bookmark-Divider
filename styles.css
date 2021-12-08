@@ -155,7 +155,9 @@ body {
 
 .inner-divider-container {
 	transition: transform 100ms linear;
-	/*cursor: pointer;*/
+}
+
+.coming-soon {
 	cursor: not-allowed;
 }
 
