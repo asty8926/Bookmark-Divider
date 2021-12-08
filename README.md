@@ -49,3 +49,6 @@ Before starting to even type a single character of code, I brainstormed the desi
 Here are the **Chart Legends**, to know how to read the above and what each shape and color corresponds to:
 ![Chart Legends](https://cdn.discordapp.com/attachments/337040974415003649/918227073816989727/Bookmark_Divider_User_Flow_Chart_Legends.png)
 
+
+[Figma Visual Prototype](https://www.figma.com/proto/4SCPcZLQmsHIsduC7U18mL/Bookmark-Divider?node-id=13%3A104&scaling=contain&page-id=0%3A1&starting-point-node-id=13%3A104&hide-ui=1)
+
