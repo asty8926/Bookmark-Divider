@@ -1,262 +1,283 @@
 @import url('http://fonts.cdnfonts.com/css/whitney-2');
 
 :root {
-  --background: hsl(234 18% 11%);
+	--background: hsl(234 18% 11%);
 
-  --text: hsl(0 0% 100%); /* white */
-  --subtext: hsl(0 0% 75%); /* gray */
+	--text: hsl(0 0% 100%); /* white */
+	--subtext: hsl(0 0% 75%); /* gray */
 
-  --ff-sm: 'Whitney Semibold', sans-serif;
-  --ff-book: 'Whitney Book', sans-serif;
-  --ff-light: 'Whitney Light', sans-serif;
+	--ff-sm: 'Whitney Semibold', sans-serif;
+	--ff-book: 'Whitney Book', sans-serif;
+	--ff-light: 'Whitney Light', sans-serif;
 
-  --stroke-active: var(--text); /* white */
-  --stroke-light: hsl(0 0% 26%); /* gray */
+	--stroke-active: var(--text); /* white */
+	--stroke-light: hsl(0 0% 26%); /* gray */
 
-  --container: hsl(233 18% 10%);
-  --dark-container: hsla(0 0% 0% / 40%);
+	--container: hsl(233 18% 10%);
+	--dark-container: hsla(0 0% 0% / 40%);
 
-  --logo-size: 5rem;
+	--logo-size: 5rem;
 
-  --border-radius: 0.313rem;
+	--border-radius: 0.313rem;
 
-  --ten-px: 0.625rem;
-  --fifteen-px: 0.938rem;
+	--ten-px: 0.625rem;
+	--fifteen-px: 0.938rem;
 
-  --divider-w: 0.767rem;
-  --divider-h: 5.75rem;
-  --divider-circle: 2.453rem;
+	--divider-w: 0.767rem;
+	--divider-h: 5.75rem;
+	--divider-circle: 2.453rem;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  /*user-select: none;*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	/*user-select: none;*/
 
-  -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
 }
 
 /* --- SCROLLBAR STYLING --- */
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    background: var(--container);
+	width: 10px;
+	height: 10px;
+	background: var(--container);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--dark-container);
-    border-radius: 10px;
-    /*border: 1px solid #292929;*/
+	background: var(--dark-container);
+	border-radius: 10px;
+	/*border: 1px solid #292929;*/
 }
 
-::selection { /* Will become irrelevant when I user select none later */
-  background-color: hsl(233 20% 39% / .5)
+::selection {
+	/* Will become irrelevant when I user select none later */
+	background-color: hsl(233 20% 39% / 0.5);
 }
 
-button, a {
-  all: unset;
-  cursor: pointer;
+button,
+a {
+	all: unset;
+	cursor: pointer;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--background);
-  color: var(--text);
-  font-family: var(--ff-book);
+	margin: 0;
+	padding: 0;
+	background-color: var(--background);
+	color: var(--text);
+	font-family: var(--ff-book);
 }
 
 /* --- Helper classes --- */
 .flex {
-  display: flex;
+	display: flex;
 }
 
 .fl-top {
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
 }
 
 .fl-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
 }
 
 .fl-hz {
-  flex-direction: row !important;
+	flex-direction: row !important;
 }
 
 .fl-vt {
-  flex-direction: column !important;
+	flex-direction: column !important;
 }
 
 .pd-10 {
-  padding: 0.625rem;
+	padding: 0.625rem;
 }
 
 .clickable {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .title {
-  font-family: var(--ff-sm);
+	font-family: var(--ff-sm);
 }
 
 #app {
-  flex-direction: column;
-  gap: 5rem;
-  margin-top: 5rem;
+	flex-direction: column;
+	gap: 5rem;
+	margin-top: 5rem;
 }
 
 #app-individual {
-  flex-direction: column;
-  gap: 2.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+	flex-direction: column;
+	gap: 2.5rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 
 /* --- Website Header --- */
 .header-container {
-  gap: 1rem;
+	gap: 1rem;
 }
 
 .logo {
-  width: var(--logo-size);
-  height: var(--logo-size);
+	width: var(--logo-size);
+	height: var(--logo-size);
 }
 
 .site-title {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .main-header {
-  font-size: 2rem;
-  text-transform: capitalize;
+	font-size: 2rem;
+	text-transform: capitalize;
 }
 
 .main-container {
-  gap: .7rem;
+	gap: 0.7rem;
 }
 
 .dividers-container {
-  gap: 1.25rem;
-  padding: var(--ten-pixels);
+	gap: 1.25rem;
+	padding: var(--ten-pixels);
 }
 
 .inner-divider-container {
-  transition: transform 100ms linear;
-  /*cursor: pointer;*/
-  cursor: not-allowed;
+	transition: transform 100ms linear;
+	/*cursor: pointer;*/
+	cursor: not-allowed;
 }
 
 .inner-divider-container:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .divider-container {
-  width: 10rem;
-  height: 10rem;
-  background-color: var(--container);
-  border: 1px solid var(--stroke-light);
-  border-radius: var(--border-radius);
+	width: 10rem;
+	height: 10rem;
+	background-color: var(--container);
+	border: 1px solid var(--stroke-light);
+	border-radius: var(--border-radius);
 }
 
 .divider-name {
-  color: var(--subtext);
-  font-size: 1.25rem;
+	color: var(--subtext);
+	font-size: 1.25rem;
 }
 
 .active {
-  color: var(--text);
-  cursor: pointer;
+	color: var(--text);
+	cursor: pointer;
 }
 
 /* Adding a border to active elements for as long as they are not "p" tags */
 .active:not(p) {
-  border: 1px solid var(--stroke-active);
+	border: 1px solid var(--stroke-active);
 }
 
 .divider-wrapper {
-  width: 5.75rem;
-  height: 5.75rem;
+	width: 5.75rem;
+	height: 5.75rem;
 }
 
 .divider {
-  background-color: var(--text);
+	background-color: var(--text);
 }
 
 .vertical-divider {
-  width: var(--divider-w);
-  height: var(--divider-h);
+	width: var(--divider-w);
+	height: var(--divider-h);
 }
 
 .horizontal-divider {
-  width: var(--divider-h);
-  height: var(--divider-w);
+	width: var(--divider-h);
+	height: var(--divider-w);
 }
 
 .circle-divider {
-  width: var(--divider-circle);
-  height: var(--divider-circle);
-  border-radius: 100%;
+	width: var(--divider-circle);
+	height: var(--divider-circle);
+	border-radius: 100%;
 }
 
 .info-button {
-  text-transform: uppercase;
-  color: var(--subtext);
+	text-transform: uppercase;
+	color: var(--subtext);
 
-  padding: var(--ten-px) 2rem;
-  border: 0.188rem solid var(--stroke-light);
-  border-radius: var(--border-radius);
-  font-size: 1.1rem;
+	padding: var(--ten-px) 2rem;
+	border: 0.188rem solid var(--stroke-light);
+	border-radius: var(--border-radius);
+	font-size: 1.1rem;
 
-  transition: background-color 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+	transition: background-color 200ms ease-in, color 200ms ease-in,
+		border 200ms ease-in;
 }
 
 .info-button:hover {
-  background-color: hsla(0 0% 18% / 64%);
+	background-color: hsla(0 0% 18% / 64%);
 }
 
 .info-button:active {
-  background-color: var(--text);
-  color: var(--container);
-  border: 0.188rem solid var(--container);
+	background-color: var(--text);
+	color: var(--container);
+	border: 0.188rem solid var(--container);
 }
 
 /* Styling of the individual divider pages */
 .dividers-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 2.03875rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 2.03875rem;
 }
 
 .divider-number-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.509375rem;
-  width: 13.4375rem;
-  height: 9.375rem;
-  border: 0.0625rem solid hsl(0 0% 13%);
-  background-color: hsla(0 0% 0% / 20%);
-  font-size: 5.4375rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.509375rem;
+	width: 13.4375rem;
+	height: 9.375rem;
+	border: 0.0625rem solid hsl(0 0% 13%);
+	background-color: hsla(0 0% 0% / 20%);
+	font-size: 5.4375rem;
 
-  transition: transform 100ms linear;
+	transition: transform 100ms linear;
 }
 
 .divider-number-container:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .current {
-  background-color: var(--dark-container);
-  border: 0.0625rem solid var(--text);
-  cursor: not-allowed;
+	background-color: var(--dark-container);
+	border: 0.0625rem solid var(--text);
+	cursor: not-allowed;
+}
+
+.add-link {
+	font-size: 3rem;
+	border: 4px solid white;
+	padding: 1rem;
+}
+
+.add-link img {
+	height: 1em;
+	vertical-align: middle;
+}
+
+.add-link::after {
+	content: 'Drag me to your bookmarks bar!';
+	vertical-align: middle;
 }
