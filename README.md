@@ -21,7 +21,7 @@ This is precisely what this project is about.
 The project makes use of what's called a "favicon", which is the logo of a website that is displayed both when you have it open in a tab, or when you bookmark it.
 A favicon can be different for every page even on the same website, and this is precisely what I am doing.
 
-**Guide**
+### Guide
 
 `1.` Go to the [website](https://asty8926.github.io/Bookmark-Divider/)
 
@@ -39,7 +39,7 @@ A favicon can be different for every page even on the same website, and this is 
 **Website Preview:**
 ![Website Preview](https://cdn.discordapp.com/attachments/337040974415003649/918222038664110090/Bookmark-Divider-Project-Preview.png)
 
-### Bonus - Behind The Scenes | Planning out the project
+## Bonus - Behind The Scenes | Planning out the project
 
 Before starting to even type a single character of code, I brainstormed the desired User Flow in the form of a Chart/Mind Map on [FigJam](https://www.figma.com/figjam/), and then made a visual prototype/UI using [Figma](https://www.figma.com/).
 
