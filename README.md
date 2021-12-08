@@ -23,8 +23,11 @@ A favicon can be different for every page even on the same website, and this is 
 
 **Guide**
 `1.` Go to the [website](https://asty8926.github.io/Bookmark-Divider/)
+
 `2.` Pick the divider of your choice
+
 `3.` Bookmark the page (*easy with `Cmd/Ctrl + D`*) to your bookmarks bar, and remove the bookmark name
+
 `4.` Navigate through the 9 other pages for that divider and bookmark as many as you need!
 
 ## Preview
