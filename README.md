@@ -6,6 +6,8 @@ Sure you can remove the name of a bookmark to only keep its icon and gain space,
 
 This is precisely what this project is about.
 
+If you want to share the website around you, I tried my best to include the relevant meta tags in HTML so the link embeds well on social media like Twitter and Discord, including a title, a title URL, a thumbnail and a brief description of what the project is about. 
+
 ## Features
 
 - 3 different dividers shapes to choose from (horizontal bar, vertical bar, and circle)
@@ -51,4 +53,3 @@ Here are the **Chart Legends**, to know how to read the above and what each shap
 
 
 [Figma Visual Prototype](https://www.figma.com/proto/4SCPcZLQmsHIsduC7U18mL/Bookmark-Divider?node-id=13%3A104&scaling=contain&page-id=0%3A1&starting-point-node-id=13%3A104&hide-ui=1)
-
