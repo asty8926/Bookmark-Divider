@@ -1,4 +1,4 @@
-# Bookmark-Divider Project
+# Bookmark Divider Project
 
 Are you tired of having so many bookmarks in your bookmarks bar that you can't visually separate in any way?
 
