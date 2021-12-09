@@ -150,11 +150,30 @@ body {
 
 .dividers-container {
 	gap: 1.25rem;
-	padding: var(--ten-pixels);
+	padding: var(--ten-px);
 }
 
 .inner-divider-container {
 	transition: transform 100ms linear;
+}
+
+.inner-divider-container::after {
+	font-size: 1.25rem;
+	color: var(--subtext);
+	padding: var(--ten-px);
+}
+
+#inner-vertical::after {
+	content: 'Vertical';
+}
+
+#inner-horizontal::after {
+	content: 'Horizontal';
+}
+
+
+#inner-circle::after {
+	content: 'Circle';
 }
 
 .coming-soon {
@@ -171,11 +190,6 @@ body {
 	background-color: var(--container);
 	border: 1px solid var(--stroke-light);
 	border-radius: var(--border-radius);
-}
-
-.divider-name {
-	color: var(--subtext);
-	font-size: 1.25rem;
 }
 
 .active {
